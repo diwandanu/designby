@@ -1,0 +1,24 @@
+body {
+    background-image: url(../images/index.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    color: white;
+}
+
+h2{
+    font-family: 'Mukta', sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+a{
+    font-family: 'Mukta', sans-serif;
+}

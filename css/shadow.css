@@ -1,0 +1,15 @@
+.container{
+    width: 40%;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.3);
+    padding: 40px;
+    background-color:whitesmoke;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../images/bg2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: 50px;
+}

@@ -1,0 +1,66 @@
+[28-Jul-2021 13:47:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/designby/public_html/function.php on line 2
+[28-Jul-2021 13:47:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/designby/public_html/function.php on line 2
+[28-Jul-2021 13:47:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/designby/public_html/function.php on line 2
+[28-Jul-2021 20:47:14 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/designby/public_html/login.php on line 16
+[28-Jul-2021 20:47:14 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/designby/public_html/login.php on line 17
+[28-Jul-2021 13:47:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/designby/public_html/function.php on line 2
+[28-Jul-2021 20:47:20 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/designby/public_html/login.php on line 16
+[28-Jul-2021 20:47:20 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/designby/public_html/login.php on line 17
+[29-Jul-2021 17:44:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'designby_diwandanu1'@'localhost' (using password: YES) in /home/designby/public_html/function.php on line 2
+[30-Jul-2021 00:44:21 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/designby/public_html/function.php on line 7
+[30-Jul-2021 00:44:21 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/designby/public_html/function.php on line 9
+[29-Jul-2021 17:44:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'designby_diwandanu'@'localhost' (using password: YES) in /home/designby/public_html/function.php on line 2
+[30-Jul-2021 00:44:41 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/designby/public_html/function.php on line 7
+[30-Jul-2021 00:44:41 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/designby/public_html/function.php on line 9
+[30-Jul-2021 13:47:00 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/designby/public_html/includes/PHPMailer.php:1960
+Stack trace:
+#0 /home/designby/public_html/includes/PHPMailer.php(1637): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 30 J...', 'This is a multi...')
+#1 /home/designby/public_html/includes/PHPMailer.php(1470): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/designby/public_html/email.php(30): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/designby/public_html/includes/PHPMailer.php on line 1960
+[30-Jul-2021 13:50:51 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/designby/public_html/includes/PHPMailer.php:1960
+Stack trace:
+#0 /home/designby/public_html/includes/PHPMailer.php(1637): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 30 J...', 'This is a multi...')
+#1 /home/designby/public_html/includes/PHPMailer.php(1470): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/designby/public_html/email.php(30): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/designby/public_html/includes/PHPMailer.php on line 1960
+[30-Jul-2021 13:52:16 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/designby/public_html/includes/PHPMailer.php:1960
+Stack trace:
+#0 /home/designby/public_html/includes/PHPMailer.php(1637): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 30 J...', 'This is a multi...')
+#1 /home/designby/public_html/includes/PHPMailer.php(1470): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/designby/public_html/email.php(30): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/designby/public_html/includes/PHPMailer.php on line 1960
+[31-Jul-2021 11:45:07 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/designby/public_html/includes/PHPMailer.php:1960
+Stack trace:
+#0 /home/designby/public_html/includes/PHPMailer.php(1637): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 31 J...', 'This is a multi...')
+#1 /home/designby/public_html/includes/PHPMailer.php(1470): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/designby/public_html/email.php(30): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/designby/public_html/includes/PHPMailer.php on line 1960
+[31-Jul-2021 12:09:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/designby/public_html/email.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/designby/public_html/email.php on line 6
+[31-Jul-2021 12:09:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/designby/public_html/email.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/designby/public_html/email.php on line 6
+[31-Jul-2021 12:09:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/designby/public_html/email.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/designby/public_html/email.php on line 6
+[31-Jul-2021 12:09:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/designby/public_html/email.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/designby/public_html/email.php on line 6
+[31-Jul-2021 12:12:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/designby/public_html/email.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/designby/public_html/email.php on line 6
+[31-Jul-2021 12:12:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/designby/public_html/email.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/designby/public_html/email.php on line 6
